@@ -1,6 +1,6 @@
 provider "google" {
   project = var.project
-  credentials = file(var.gcp_credentials)
+  //credentials = file(var.gcp_credentials)
   region  = var.region
   zone    = var.zone
 }
