@@ -1,6 +1,6 @@
 #source  = "hashicorp/google"
 #version = "3.5.0"
-project = "	sre-demo-357111"
+project = "sre-demo-357111"
 region  = "asia-south1"
 zone    = "asia-south1-a"
 vm_name	= "myinstance1"
