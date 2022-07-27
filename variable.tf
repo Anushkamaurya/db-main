@@ -1,7 +1,7 @@
-variable "gcp_credentials" {
+/* variable "gcp_credentials" {
     type = string
     default = ""
-}
+} */
 
 variable "region" {
     type = string
