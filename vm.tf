@@ -1,17 +1,3 @@
-provider "google" {
-  project = var.project
-  //credentials = file(var.gcp_credentials)
-  region  = var.region
-  zone    = var.zone
-}
-
-terraform {
-    backend "gcs" {
-        bucket = "project_tfstate"
-        prefix = "terraform/state"
-    }
-} 
-
 resource "google_compute_network" "terra_vpc_network" {
   name                    = var.network
   auto_create_subnetworks = false
